@@ -16,51 +16,36 @@ const ProjectList = () => (
   >
     <div className="flex flex-col gap-6">
       <Project
-        name="Project 1"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="Whimzee"
+        description="Whimzee is an Etsy clone that empowers users to engage in a dynamic online marketplace.
+        Users can sign up, create their own shops, post listings(new and used), purchase items, and browse through a diverse range of products.
+        Whimzee offers a seamless and user-friendly experience, connecting buyers and sellers in a vibrant ecosystem of creativity and commerce."
+        link="https://whimz.gitlab.io/module3-project-gamma/"
         img={{
           src: '/assets/images/project-web-design.png',
           alt: 'Project Web Design',
         }}
         category={
           <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.LIME}>Web design</Tags>
+            <Tags color={ColorTags.FUCHSIA}>FastAPI</Tags>
+            <Tags color={ColorTags.LIME}>React</Tags>
             <Tags color={ColorTags.SKY}>Tailwind.css</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.ROSE}>PostgreSQL</Tags>
           </>
         }
       />
       <Project
-        name="Project 2"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
+        name="CarCar"
+        description="CarCar is a powerful application designed to streamline the operations of car dealerships.
+        It provides managers with an all-in-one solution to efficiently track sales, manage inventory, and oversee service operations.
+        With this user-friendly application, you can effortlessly add and manage salespeople, customers, and service employees, ensuring smooth and effective dealership management."
+        link="https://gitlab.com/CBeckAskenaizer/carcar"
         img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
         category={
           <>
-            <Tags color={ColorTags.VIOLET}>Next.js</Tags>
-            <Tags color={ColorTags.EMERALD}>Blog</Tags>
-            <Tags color={ColorTags.YELLOW}>JavaScript</Tags>
-          </>
-        }
-      />
-      <Project
-        name="Project 3"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-        bibendum. Nunc non posuere consectetur, justo erat semper enim, non
-        hendrerit dui odio id enim."
-        link="/"
-        img={{ src: '/assets/images/project-maps.png', alt: 'Project Maps' }}
-        category={
-          <>
-            <Tags color={ColorTags.FUCHSIA}>Astro.js</Tags>
-            <Tags color={ColorTags.INDIGO}>Bootstrap</Tags>
-            <Tags color={ColorTags.ROSE}>TypeScript</Tags>
+            <Tags color={ColorTags.VIOLET}>Django</Tags>
+            <Tags color={ColorTags.YELLOW}>React</Tags>
+            <Tags color={ColorTags.EMERALD}>Bootstrap</Tags>
           </>
         }
       />
