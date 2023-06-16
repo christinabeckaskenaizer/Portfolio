@@ -16,15 +16,15 @@ const Hero = () => (
       }
       description={
         <>
-          Welcome! I'm Christina, a passionate software engineer specializing in front end technologies such as .
+          Welcome! I'm Christina, a software engineer who enjoys learning new technologies.
 Outside of coding, I enjoy traveling, discovering new board games, and collaborating on open-source projects.
         </>
       }
       avatar={
         <img
           className="rounded-2xl"
-          src="\public\assets\images\me.jpg"
-          alt="Avatar image"
+          src="\assets\images\me.jpg"
+          alt="Image of Christina"
           loading="lazy"
         />
       }
@@ -32,11 +32,11 @@ Outside of coding, I enjoy traveling, discovering new board games, and collabora
         <>
           <a href="https://www.linkedin.com/in/christinabeckaskenaizer/" target='_blank'>
             <HeroSocial
-              src="/assets/images/linkedin-icon.png"
+              src="\assets\images\icons8-linkedin-48.png"
               alt="Linkedin icon"
             />
           </a>
-          <a href="/" target="_blank">
+          <a href="https://github.com/christinabeckaskenaizer" target="_blank">
             <HeroSocial
               src="\assets\images\icons8-github-94.png"
               alt="Github icon"

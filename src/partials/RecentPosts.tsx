@@ -14,6 +14,9 @@ const RecentPosts = () => (
       </div>
     }
   >
+    <div>
+      <p>hi</p>
+    </div>
   </Section>
 );
 
