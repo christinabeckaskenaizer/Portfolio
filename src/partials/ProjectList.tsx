@@ -24,7 +24,7 @@ const ProjectList = () => (
         link="https://whimz.gitlab.io/module3-project-gamma/"
         img={{
           src: '/assets/images/project-web-design.png',
-          alt: 'Project Web Design',
+          alt: 'Whimzee home page',
         }}
         category={
           <>
