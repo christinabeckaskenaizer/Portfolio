@@ -45,7 +45,7 @@ const RecentPosts = () => (
   </div>
   <div className='inline-flex flex-row items-center p-3 border rounded border-cyan-600'>
     <img className='w-10 h-10 hover:background-red-800' src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" alt="fastapi"/>
-    <p className="pl-4 mt-2">FastAPI</p>
+    <p className="pl-8 mt-2">FastAPI</p>
   </div>
 </div>
 </Section>
