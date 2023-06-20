@@ -22,7 +22,7 @@ const ProjectList = () => (
         Whimzee offers a seamless and user-friendly experience, connecting buyers and sellers in a vibrant ecosystem of creativity and commerce."
         link="https://whimz.gitlab.io/module3-project-gamma/"
         img={{
-          src: '/assets/images/project-web-design.png',
+          src: '/assets/images/green-shopping-bag-3d-icon-illustration-png.png',
           alt: 'Whimzee home page',
         }}
         category={
@@ -40,7 +40,7 @@ const ProjectList = () => (
         It provides managers with an all-in-one solution to efficiently track sales, manage inventory, and oversee service operations.
         With this user-friendly application, you can effortlessly add and manage salespeople, customers, and service employees, ensuring smooth and effective dealership management."
         link="https://gitlab.com/CBeckAskenaizer/carcar"
-        img={{ src: '/assets/images/project-fire.png', alt: 'Project Fire' }}
+        img={{ src: '/assets/images/3d-rendering-illustration-of-a-lowpoly-car-free-png.png', alt: 'Project Fire' }}
         category={
           <>
             <Tags color={ColorTags.VIOLET}>Django</Tags>
