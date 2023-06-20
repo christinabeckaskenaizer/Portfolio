@@ -15,7 +15,6 @@ const ProjectList = () => (
     }
   >
     <div className="flex flex-col gap-6">
-      <a href='https://whimz.gitlab.io/module3-project-gamma/' target='_blank'>
       <Project
         name="Whimzee"
         description="Whimzee is an Etsy clone that empowers users to engage in a dynamic online marketplace.
@@ -35,7 +34,6 @@ const ProjectList = () => (
           </>
         }
       />
-      </a>
       <Project
         name="CarCar"
         description="CarCar is a powerful application designed to streamline the operations of car dealerships.
