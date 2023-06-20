@@ -21,7 +21,7 @@ const RecentPosts = () => (
   </div>
   <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
     <img className='w-10 h-10 hover:background-red-800' src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="react"/>
-    <p className="sm:flex hidden pl-4 mt-2">React</p>
+    <p className="sm:flex hidden pl-6 mt-2">React</p>
   </div>
   <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
