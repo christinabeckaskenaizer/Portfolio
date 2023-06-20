@@ -45,7 +45,7 @@ Outside of coding, I enjoy traveling, discovering new board games, and drawing d
         </>
       }
     />
-    <a href='\assets\resume\Christina Beck-Askenaizer Resume.pdf' download><button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded inline-flex items-center">
+    <a href='\assets\resume\Christina_Software_Engineer_Resume.pdf' download><button className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-cyan-800 rounded inline-flex items-center">
   <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
   <span>Resume</span>
 </button>
