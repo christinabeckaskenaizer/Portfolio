@@ -22,8 +22,8 @@ Outside of coding, I enjoy traveling, discovering new board games, and drawing d
       }
       avatar={
         <img
-          className="rounded-2xl"
-          src="\assets\images\me.jpg"
+          className="w-96 h-96 rounded-2xl"
+          src="/assets/images/profile-pic (5).png"
           alt="Image of Christina"
           loading="lazy"
         />
