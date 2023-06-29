@@ -16,7 +16,7 @@ const Hero = () => (
       }
       description={
         <>
-          Welcome! I'm Christina, a software engineer who enjoys learning new technologies.
+          Welcome! I'm Christina, a fullstack software engineer who enjoys learning new technologies.
 Outside of coding, I enjoy traveling, discovering new board games, and drawing digital art.
         </>
       }
