@@ -7,9 +7,6 @@ import {
 const Navbar = () => (
   <Section>
     <NavbarTwoColumns>
-      <a href="/">
-      </a>
-
       <NavMenu>
       </NavMenu>
     </NavbarTwoColumns>
