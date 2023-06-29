@@ -16,8 +16,7 @@ const Hero = () => (
       }
       description={
         <>
-          Welcome! I'm Christina, a fullstack software engineer who enjoys learning new technologies.
-Outside of coding, I enjoy traveling, discovering new board games, and drawing digital art.
+          Welcome! I'm Christina, a full-stack software engineer with a preference for front-end development. I enjoy building websites and learning new technologies. Outside of coding, I love traveling, discovering new board games, and drawing digital art.
         </>
       }
       avatar={
