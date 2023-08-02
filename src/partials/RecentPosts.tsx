@@ -15,52 +15,52 @@ const RecentPosts = () => (
     }
   >
     <div className='align-center center grid grid-cols-4 gap-3'>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+    <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-10 h-10 hover:background-red-800' src="https://cdn.worldvectorlogo.com/logos/react-2.svg" alt="react"/>
     <p className="sm:flex hidden pl-6 mt-2">React</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
     <p className="sm:flex hidden pl-4 mt-2">JavaScript</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/color/48/typescript.png" alt="typescript"/>
     <p className="sm:flex hidden pl-4 mt-2">TypeScript</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
     <p className="sm:flex hidden pl-4 mt-2">Python</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-10 h-10 hover:background-red-800' src="https://img.icons8.com/parakeet/48/php.png" alt="PHP"/>
     <p className="sm:flex hidden pl-8 mt-2">PHP</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/color/48/postgreesql.png" alt="postgresql"/>
     <p className="sm:flex hidden pl-4 mt-2">PostgreSQL</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-8 h-8 hover:background-red-800' src="https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png" alt="django"/>
     <p className="sm:flex hidden pl-8 mt-2">Django</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-30 h-30 hover:background-red-800' src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/>
     <p className="sm:flex hidden pl-4 mt-2">Docker</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-10 h-10 hover:background-red-800' src="https://cdn.worldvectorlogo.com/logos/fastapi.svg" alt="fastapi"/>
     <p className="sm:flex hidden pl-8 mt-2">FastAPI</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-10 h-10 hover:background-red-800' src="https://d2nir1j4sou8ez.cloudfront.net/wp-content/uploads/2021/12/nextjs-boilerplate-logo.png" alt="Next.js"/>
     <p className="sm:flex hidden pl-8 mt-2">Next.js</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
     <img className='w-10 h-10 hover:background-red-800' src="https://cdn.worldvectorlogo.com/logos/tailwindcss.svg" alt="TypeScript"/>
     <p className="sm:flex hidden pl-8 mt-2">Tailwind.css</p>
   </div>
-  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-cyan-600'>
-    <img className='w-10 h-10 hover:background-red-800' src="https://git-scm.com/images/logos/downloads/Git-Icon-White.svg" alt="Git"/>
+  <div className='inline-flex flex-row items-center p-3 sm:border rounded border-pink-400 bg-pink-50 shadow-md'>
+    <img className='w-10 h-10 hover:background-red-800' src="https://git-scm.com/images/logos/downloads/Git-Icon-Black.svg" alt="Git"/>
     <p className="sm:flex hidden pl-8 mt-2">Git</p>
   </div>
 </div>

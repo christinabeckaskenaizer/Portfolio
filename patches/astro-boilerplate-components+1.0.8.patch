@@ -3,11 +3,10 @@ index 072d76b..8588e6c 100644
 --- a/node_modules/astro-boilerplate-components/dist/esm/index.js
 +++ b/node_modules/astro-boilerplate-components/dist/esm/index.js
 @@ -31,7 +31,7 @@ const PostContent = (props) => (jsxs("div", { className: "mx-auto mt-5 max-w-pro
- 
+
  const PostHeader = (props) => (jsxs(Fragment, { children: [jsx("h1", { className: "text-center text-3xl font-bold", children: props.content.title }), jsxs("div", { className: "mt-2 text-center text-sm text-gray-400", children: ["By ", props.author, " on", ' ', format(new Date(props.content.pubDate), 'LLL d, yyyy')] })] }));
- 
+
 -const Project = (props) => (jsxs("div", { className: "flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row", children: [jsx("div", { className: "shrink-0", children: jsx("a", { href: props.link, children: jsx("img", { className: "h-36 w-36 hover:translate-y-1", src: props.img.src, alt: props.img.alt, loading: "lazy" }) }) }), jsxs("div", { children: [jsxs("div", { className: "flex flex-col items-center gap-y-2 md:flex-row", children: [jsx("a", { className: "hover:text-cyan-400", href: props.link, children: jsx("div", { className: "text-xl font-semibold", children: props.name }) }), jsx("div", { className: "ml-3 flex gap-2", children: props.category })] }), jsx("p", { className: "mt-3 text-gray-400", children: props.description })] })] }));
 +const Project = (props) => (jsxs("div", { className: "flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-3 md:flex-row", children: [jsx("div", { className: "shrink-0", children: jsx("a", { href: props.link, target: "_blank", children: jsx("img", { className: "h-36 w-36 hover:translate-y-1", src: props.img.src, alt: props.img.alt, loading: "lazy" }) }) }), jsxs("div", { children: [jsxs("div", { className: "flex flex-col items-center gap-y-2 md:flex-row", children: [jsx("a", { className: "hover:text-cyan-400", target: "_blank", href: props.link, children: jsx("div", { className: "text-xl font-semibold", children: props.name }) }), jsx("div", { className: "ml-3 flex gap-2", children: props.category })] }), jsx("p", { className: "mt-3 text-gray-400", children: props.description })] })] }));
- 
+
  const Section = (props) => (jsxs("div", { className: "mx-auto max-w-screen-lg px-3 py-6", children: [props.title && (jsx("div", { className: "mb-6 text-2xl font-bold", children: props.title })), props.children] }));
- 

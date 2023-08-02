@@ -21,8 +21,8 @@ const Hero = () => (
       }
       avatar={
         <img
-          className="w-96 h-96 rounded-2xl"
-          src="/assets/images/profile-pic (8).png"
+          className="border h-80 rounded-full w-80 object-cover"
+          src="/assets/images/IMG-5247.jpg"
           alt="Image of Christina"
           loading="lazy"
         />
@@ -31,13 +31,13 @@ const Hero = () => (
         <>
           <a href="https://www.linkedin.com/in/christinabeckaskenaizer/" target='_blank'>
             <HeroSocial
-              src="\assets\images\icons8-linkedin-48.png"
+              src="\assets\images\linkedin-black.png"
               alt="Linkedin icon"
             />
           </a>
           <a href="https://github.com/christinabeckaskenaizer" target="_blank">
             <HeroSocial
-              src="\assets\images\icons8-github-94.png"
+              src="\assets\images\github-black.png"
               alt="Github icon"
             />
           </a>
@@ -45,7 +45,7 @@ const Hero = () => (
       }
     />
     <a href='\Christina_Software_Developer_Resume.pdf' download>
-      <button className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-2 px-4 border-b-4 border-cyan-700 hover:border-cyan-800 rounded inline-flex items-center">
+      <button className="bg-pink-400 hover:bg-pink-500 text-white font-bold py-2 px-4 border-b-4 border-pink-600 hover:border-pink-700 rounded inline-flex items-center">
   <svg className="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z"/></svg>
   <span>Resume</span>
 </button>
