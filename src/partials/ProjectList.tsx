@@ -33,8 +33,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.ROSE}>PostgreSQL</Tags>
           </>
         }
-        learnMore="Learn more"
-        learnMoreLink="google.com"
+        learnMore="Learn more >>"
+        learnMoreLink="Whimzee"
       />
       <Project
         name="DeckDex"
@@ -49,8 +49,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.GREEN}>PostgreSQL</Tags>
           </>
         }
-        learnMore="Learn more"
-        learnMoreLink="google.com"
+        learnMore="Learn more >>"
+        learnMoreLink="DeckDex"
       />
       <Project
         name="CarCar"
@@ -66,8 +66,8 @@ const ProjectList = () => (
             <Tags color={ColorTags.EMERALD}>Bootstrap</Tags>
           </>
         }
-        learnMore="Learn more"
-        learnMoreLink="google.com"
+        learnMore="Learn more >>"
+        learnMoreLink="CarCar"
       />
     </div>
   </Section>

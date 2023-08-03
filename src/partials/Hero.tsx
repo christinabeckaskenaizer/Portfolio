@@ -22,7 +22,7 @@ const Hero = () => (
       avatar={
         <img
           className="border h-80 rounded-full w-80 object-cover"
-          src="/assets/images/IMG-5247.jpg"
+          src="/assets/images/profile-pic (8).png"
           alt="Image of Christina"
           loading="lazy"
         />
