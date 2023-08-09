@@ -68,7 +68,7 @@ export default function Home() {
           love traveling, discovering new board games, and drawing digital art.
         </p>
       </div>
-      <div className="mt-5 text-center w-full">
+      <div className="text-center w-full">
         <h1 className="text-gunmetal text-4xl font-bold mt-20 my-3 font-sans">
           My Favorite Projects
         </h1>
