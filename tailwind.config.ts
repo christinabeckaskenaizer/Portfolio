@@ -12,6 +12,7 @@ const config: Config = {
       'amaranthpink' : '#E39EC1',
       'babypowder' : '#FDFFFC',
       'carrot' : '#F39237',
+      'forest' : '#97bc9d',
     },
     extend: {
       backgroundImage: {
