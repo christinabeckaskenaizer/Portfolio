@@ -10,7 +10,7 @@ interface Props {
 
 export default function Card({ title, img, description, repo }: Props) {
   return (
-    <div className="w-full max-w-sm bg-white border border-gray-400 rounded-lg shadow">
+    <div className="mt-5 w-full max-w-sm bg-white border border-gray-400 rounded-lg shadow hover:scale-105">
       <a href="#">
         <Image
           className="w-full object-cover rounded-lg"
