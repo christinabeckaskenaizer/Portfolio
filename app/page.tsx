@@ -120,7 +120,7 @@ export default function Home() {
             Tech Stack
           </h1>
         </div>
-        <div className="grid sm:grid-cols-3 items-center w-full px-24">
+        <div className="grid grid-cols-1 sm:grid-cols-3 items-center w-full px-24">
           <p className="hidden sm:block sm:text-gunmetal sm:text-center sm:items-center sm:text-2xl sm:font-bold sm:mt-5 sm:my-3 sm:font-sans">
             Full Stack Technologies
           </p>
@@ -244,8 +244,7 @@ export default function Home() {
               </svg>
               <p>Bootstrap</p>
             </div>
-          </div>
-          <div className="grid grid-cols-3 text-gunmetal">
+
             <div className="flex flex-col items-center">
               <svg
                 width={50}
