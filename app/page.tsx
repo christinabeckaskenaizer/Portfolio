@@ -75,8 +75,8 @@ export default function Home() {
             Welcome!
           </h1>
           <p className="text-babypowder text-lg my-3 px-10 font-sans">
-            I'm Christina, a full-stack software engineer with a passion for
-            front-end development.
+            I'm Christina, a full-stack software engineer who loves to build
+            websites and learn new technologies!
           </p>
           <p className="text-babypowder text-lg mb-20 px-10 font-sans">
             Building websites and exploring the ever-evolving tech landscape is
@@ -95,7 +95,7 @@ export default function Home() {
             For more projects, be sure to visit the "All Projects" tab!
           </p>
         </div>
-        <div className="px-24 w-full sm:flex sm:flex-auto justify-between flex-row mx-10">
+        <div className="px-24 sm:space-x-10 sm:w-full sm:flex sm:flex-auto justify-between flex-row sm:mx-10">
           <Card
             title="Whimzee"
             img="/images/Whimzee Home.PNG"
@@ -120,7 +120,7 @@ export default function Home() {
             Tech Stack
           </h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 items-center w-full px-24">
+        <div className="grid grid-cols-1 sm:grid-cols-3 sm:items-start w-full px-24">
           <p className="hidden sm:block sm:text-gunmetal sm:text-center sm:items-center sm:text-2xl sm:font-bold sm:mt-5 sm:my-3 sm:font-sans">
             Full Stack Technologies
           </p>
@@ -133,7 +133,7 @@ export default function Home() {
           <p className="hidden sm:block sm:text-gunmetal sm:text-2xl sm:text-center sm:font-bold sm:mt-5 sm:my-3 sm:font-sans">
             Development Tools
           </p>
-          <div className="grid grid-cols-2 sm:grid-cols-3 text-gunmetal">
+          <div className="grid grid-cols-2 sm:grid-cols-3 items-start text-gunmetal">
             <div className="flex flex-col items-center">
               <svg
                 height={50}
@@ -154,7 +154,7 @@ export default function Home() {
                   <path d="M256,298.55a43,43,0,1,0-42.86-43A42.91,42.91,0,0,0,256,298.55Z"></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">React</p>
+              <p className="invisible lg:visible">React</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -180,7 +180,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">Next.js</p>
+              <p className="invisible lg:visible">Next.js</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -205,7 +205,7 @@ export default function Home() {
                   ></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">Tailwind</p>
+              <p className="invisible lg:visible">Tailwind</p>
             </div>
             <div className="flex flex-col items-center mt-2">
               <svg
@@ -242,7 +242,7 @@ export default function Home() {
                   </g>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">Bootstrap</p>
+              <p className="invisible lg:visible">Bootstrap</p>
             </div>
 
             <div className="flex flex-col items-center">
@@ -267,7 +267,7 @@ export default function Home() {
                   <rect x="20.441" y="4.02" width="3.964" height="4.028"></rect>
                 </g>
               </svg>
-              <p className="invisible sm:visible">Django</p>
+              <p className="invisible lg:visible">Django</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -288,7 +288,7 @@ export default function Home() {
                   <path d="M12 0C5.375 0 0 5.375 0 12c0 6.627 5.375 12 12 12 6.626 0 12-5.373 12-12 0-6.625-5.373-12-12-12zm-.624 21.62v-7.528H7.19L13.203 2.38v7.528h4.029L11.376 21.62z"></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">FastAPI</p>
+              <p className="invisible lg:visible">FastAPI</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -343,7 +343,7 @@ export default function Home() {
                   </g>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">PostgreSQL</p>
+              <p className="invisible lg:visible">PostgreSQL</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -377,7 +377,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">Node.js</p>
+              <p className="invisible lg:visible">Node.js</p>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 text-gunmetal">
@@ -402,7 +402,7 @@ export default function Home() {
                   <path d="M324 370c10 17 24 29 47 29c20 0 33-10 33 -24c0-16 -13 -22 -35 -32l-12-5c-35-15 -58 -33 -58 -72c0-36 27 -64 70 -64c31 0 53 11 68 39l-37 24c-8-15 -17 -21 -31 -21c-14 0-23 9 -23 21c0 14 9 20 30 29l12 5c41 18 64 35 64 76c0 43-34 67 -80 67c-45 0-74 -21 -88 -49zm-170 4c8 13 14 25 31 25c16 0 26-6 26 -30V203h48v164c0 50-29 72 -72 72c-39 0-61 -20 -72 -44z"></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">JavaScript</p>
+              <p className="invisible lg:visible">JavaScript</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -428,7 +428,7 @@ export default function Home() {
                   ></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">TypeScript</p>
+              <p className="invisible lg:visible">TypeScript</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -498,7 +498,7 @@ export default function Home() {
                   </g>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">Python</p>
+              <p className="invisible lg:visible">Python</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -535,7 +535,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">PHP</p>
+              <p className="invisible lg:visible">PHP</p>
             </div>
             <div className="flex flex-col items-center mt-2">
               <svg
@@ -564,7 +564,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">HTML</p>
+              <p className="invisible lg:visible">HTML</p>
             </div>
 
             <div className="flex flex-col items-center">
@@ -594,7 +594,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">CSS</p>
+              <p className="invisible lg:visible">CSS</p>
             </div>
           </div>
           <div className="grid grid-cols-2 sm:grid-cols-3 text-gunmetal">
@@ -624,7 +624,7 @@ export default function Home() {
                   ></path>{" "}
                 </g>
               </svg>
-              <p className="invisible sm:visible">Git</p>
+              <p className="invisible lg:visible">Git</p>
             </div>
             <div className="flex flex-col items-center">
               <svg
@@ -647,7 +647,7 @@ export default function Home() {
                   ></path>
                 </g>
               </svg>
-              <p className="invisible sm:visible">Docker</p>
+              <p className="invisible lg:visible">Docker</p>
             </div>
           </div>
         </div>

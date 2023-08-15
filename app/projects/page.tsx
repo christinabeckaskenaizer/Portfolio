@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <>
       <NavBar></NavBar>
-      <div className="px-24 w-full sm:grid grid-cols-3 sm:flex-auto sm:justify-between sm:mx-10">
+      <div className="px-24 w-full justify-between sm:grid grid-cols-3 sm:flex-auto sm:justify-between sm:mx-10 mb-10 sm:gap-x-10">
         <Card
           title="Whimzee"
           img="/images/Whimzee Home.PNG"
@@ -26,7 +26,7 @@ export default function Page() {
         />
         <Card
           title="Jammming"
-          img="/images/CarCar-Main.PNG"
+          img="/images/Coming Soon!.PNG"
           description="Application to create playlists using the Spotify API"
           repo="https://github.com/christinabeckaskenaizer/Jammming"
         />
