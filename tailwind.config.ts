@@ -7,14 +7,14 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      'gunmetal' : '#2F323A',
-      'amaranthpink' : '#E39EC1',
-      'babypowder' : '#FDFFFC',
-      'carrot' : '#F39237',
-      'forest' : '#97bc9d',
-    },
     extend: {
+      colors: {
+        'gunmetal' : '#2F323A',
+        'amaranthpink' : '#E39EC1',
+        'babypowder' : '#FDFFFC',
+        'carrot' : '#F39237',
+        'forest' : '#97bc9d',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':

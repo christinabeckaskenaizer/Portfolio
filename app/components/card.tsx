@@ -28,7 +28,7 @@ export default function Card({ title, img, description, repo }: Props) {
           </h5>
         </a>
         <div className="flex items-center mt-2.5 mb-5">
-          <span className="text-gunmetal text-sm font-regular mr-2 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800">
+          <span className="text-gunmetal text-sm font-regular mr-2 py-0.5 rounded">
             {description}
           </span>
         </div>
