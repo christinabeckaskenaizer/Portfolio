@@ -4,7 +4,7 @@ Welcome to my portfolio website! This website showcases my skills, projects, and
 
 ## Introduction
 
-Hey there! I'm thrilled to have you visit my portfolio website. My name is [Your Name], and I'm a passionate developer who loves crafting amazing web experiences. This website is a representation of my journey, skills, and projects that I've poured my heart into. Feel free to explore and get to know me better!
+Hey there! I'm thrilled to have you visit my portfolio website. My name is Christina, and I'm a passionate developer who loves crafting amazing web experiences. This website is a representation of my journey, skills, and projects that I've poured my heart into. Feel free to explore and get to know me better!
 
 ### Technologies Used
 
